@@ -1,8 +1,5 @@
 import os
-from taskmanager import app, db
-
-db.create_all()
-
+from taskmanager import app
 
 if __name__ == "__main__":
     app.run(
